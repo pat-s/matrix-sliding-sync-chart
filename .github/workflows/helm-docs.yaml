@@ -23,7 +23,7 @@ jobs:
 
       # commit the docs changes back up
       # see: https://github.com/EndBug/add-and-commit/issues/389#issuecomment-1116589962
-      - uses: EndBug/add-and-commit@v9
+      - uses: EndBug/add-and-commit@v11
         name: commit helm docs changes
         with:
           add: 'charts/matrix/README.md'
